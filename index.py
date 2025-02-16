@@ -32,7 +32,6 @@ replaceNewArr = replaceNew.split(',')
 
 # handle each replacement
 for index, replaceItem in enumerate(replaceNewArr): 
-  # replaceOldArr[index] = replaceItem.lower()
   readResult = readResult.replace(replaceOldArr[index], replaceNewArr[index]) 
 
 # set result to lowercase if toggled by user previously
