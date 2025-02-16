@@ -1,4 +1,3 @@
 # py-fileparser
 
-Input a file -> select adjustments (lowercase, replace, etc) -> new file 
-
+Input a file -> find & replace -> transform (just lowercase for now) -> new file 
